@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="viewDiv">
+    <div class="settDiv">
+      <span>
+        <strong>별자리 확인 시간 : </strong>
+        <select id="delay">
+          <option value="1">1초</option>
+          <option value="2">2초</option>
+          <option value="3" selected>3초</option>
+          <option value="4">4초</option>
+          <option value="5">5초</option>
+          <option value="6">6초</option>
+          <option value="7">7초</option>
+          <option value="8">8초</option>
+          <option value="9">9초</option>
+          <option value="10">10초</option>
+        </select>
+      </span>
+      <button id="start">START!</button>
+      <button class="reset hide" onclick="window.location.reload();">RESET</button>
+    </div>
+  
+  <br><br>
+
+    <div class="container">
+      <div></div>
+      <div class="bossDiv">
+        <img src="img/bossMonster.png">
+      </div>
+      <div></div>
+      <div>
+        <table id="leftTb" class="purple">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table id="mainTb">
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table id="rightTb" class="purple">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div></div>
+      <div>
+        <table id="bottomTb" class="purple">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div></div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
